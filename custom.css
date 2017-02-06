@@ -6,16 +6,17 @@ html {
 body {
   padding-bottom: 60px;
   padding-top: 20px;
-  /*
-  background-color: #35586C;
-  font-family: 'Indie Flower', cursive;
-  */
+  background-color: #CCCCCC;
 }
 
 img {
-    border-radius: 50%;
-    padding: 5px;
-    width: 50px;
+  border-radius: 50%;
+  width: 50px;
+  padding: 2px;
+}
+
+.container {
+  max-width: 700px;
 }
 
 .footer {
@@ -28,4 +29,17 @@ img {
 
 .text-muted {
   margin: 20px 0;
+}
+
+#header {
+  background-color: #35586C;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+  margin-bottom: 5px;
+}
+
+#datarow {
+  background-color: #ffffff;
+  font-family: 'Audiowide', cursive;
+  margin-top: 5px;
 }
