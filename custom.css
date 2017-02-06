@@ -19,6 +19,15 @@ img {
   max-width: 700px;
 }
 
+.row {
+  margin-bottom: 5px;
+  padding: 5px;
+  line-height: 50px;
+  background-color: #35586C;
+  color: #ffffff;
+  font-family: 'Bungee Shade', cursive;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -31,15 +40,8 @@ img {
   margin: 20px 0;
 }
 
-#header {
-  background-color: #35586C;
-  color: white;
-  font-family: 'Bungee Shade', cursive;
-  margin-bottom: 5px;
-}
-
 #datarow {
   background-color: #ffffff;
+  color: inherit;
   font-family: 'Audiowide', cursive;
-  margin-top: 5px;
 }
